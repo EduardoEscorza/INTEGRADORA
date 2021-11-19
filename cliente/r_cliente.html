@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-with, initial-scale=1.0">
+        <link rel="stylesheet" href="boot/css/bootstrap.min.css">
+        <link rel="stylesheet" href="boot/css/ie10-viewport-bug-workaround.css">
+        <link rel="stylesheet" href="boot/css/jumbotron-narrow.css">
+        <link href="#.jpg" rel="shortcut icon"> 
+    </head>
+    <body>
+        <div class="container mt-3">
+            <div class="header">
+                <nav>
+                    <h3 class="text-muted">Formulario de registro Usuarios
+                    </h3>
+                </nav>
+            </div>
+        <div>
+            <div class="row">
+            </div class="col-lg-6 centrar">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputText" class="form-label">Nombre y apellidos</label>
+                  <input placeholder="Nombres" type="text"  class="form-control">
+                  <br>
+                  <input placeholder="Apellido paterno" type="text"  class="form-control">
+                  <br>
+                  <input placeholder="Apellido materno" type="text"  class="form-control">
+                  <br>
+                  <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                  </div>
+                  <br>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputNumber class="form-label">Edad</label>
+                  <input placeholder="Introduce tu edad" type="number" class="form-control">
+              </div>
+              <br>
+                <div class="mb-3">
+                    <label for="exampleInputNumber class="form-label">Telefono</label>
+                    <input placeholder="Numero de telefono" type="number" class="form-control">
+                </div>
+                <br>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="nombre@ejemplo.com">
+                    <br>
+                <div class="mb-3">
+                      <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Password</label>
+                      </div>
+                      <div class="col-auto">
+                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                      </div>
+                      <div class="col-auto">
+                        <span id="passwordHelpInline" class="form-text"> Debe tener entre 8 y 20 caracteres.
+                        </span>
+                      </div>
+                    </div>
+                    <br>
+                </div>
+                  <div class="mb-3 form-check"></div>
+                  <button onclick="vinculo();" type="button" class="btn btn-danger">Darme de alta -></button>
+              </form>
+        </div>  
+        </div>  
+          </form>
+    </body>
+</html>
